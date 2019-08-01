@@ -4,35 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Social media stranka HTML</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat enim ut maximus lobortis. Donec commodo imperdiet lorem, vitae pharetra risus viverra ac.</p>
+<div class="wrapper">
+
+    <!--Navigacia-->
+<header>
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="galery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="profil.html">My profile</a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-end" id="user">
+            <img src="../../jozko.jpg">
+            <p>Jožko Mrkvička</p>
+            <a href="#"></a>
+        </div>
+    </nav>
+</header>
+
+    <!--Prvy kontajner-->
+
+    <section class="prvy-kontajner">
+        <id class="showcase">
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+        </id>
+    </section>
+
+    <!--vyhladavanie-->
+        <div class="druhy-kontajner">
+            <section id="formular">
+                <form>
+                    <p>Name:</p><input type="name" placeholder="Type your name here">
+                    <p>E-mail:</p><input type="email" placeholder="...@...">
+                    <p>Comment:</p><textarea id="text" name="text" placeholder="What you wanna say?"></textarea>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </form>
+            </section>
+            
+            <section id="vyhladavac">
+                <div id="searchis">
+                    <form>
+                        <input type="search" placeholder="Type here...">
+                        <button type="button" class="btn btn-primary button_1">Search</button>
+                    </form>  
+                </div>
+                <div id="reklama">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur nesciunt fugit inventore harum! Ut quos ratione rem. Voluptas laborum unde alias nam perspiciatis, inventore nihil illo quod corporis esse in, ipsum id nesciunt consectetur, fuga molestiae dolore tempora eveniet?
+                    </p>
+                    <button type="button" class="btn btn-primary button_2">Check it here</button>
+                </div>
+
+            </section>
+        </div>
     
-        <form method="post" action="index.html">
-                Name: <input type="text" id="name" name="name"></input><br>
-                <br>
-                Text: <textarea id="text" name="text"></textarea><br />
-               
-                <br>
-                Gender
-                <input type="radio" ID="male" name="Gender" value="male">Male</input>
-                <input type="radio" id="female" name="Gender" value="female">Female</input>
-                <br >
-                Preferencies
-        
-                <input type="checkbox" id="pref1" name="prefs" value="newsletter">Others can comment</input><br>
-                <input type="submit" value="submit"></input> <br>
-                
-            </form>
 
-    <img src="http://lorempixel.com/400/200/sports/" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat enim ut maximus lobortis.</p>
+    <!--Boxiky-->
 
-    <h3>John Snow</h3> <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat enim ut maximus lobortis. Donec commodo imperdiet lorem, vitae pharetra risus viverra ac. Nulla magna metus, scelerisque vel fermentum sed, ullamcorper luctus ipsum. </p>
-    <textarea id="text2" name="text2"></textarea>
+    <section class="boxes">
+        <div class="box">
+            <time datetime="2010-11-07 12:00">2010-11-07 12:00</time>
+            <h4>XXXA</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus in praesentium sunt tenetur quia, deleniti quae at totam?</p>
+        </div>
+        <div class="box">
+            <time datetime="2010-11-07 12:00">2010-11-07 12:00</time>
+            <h4>XXXB</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus in praesentium sunt tenetur quia, deleniti quae at totam?</p>
+        </div>
+        <div class="box">
+            <time datetime="2010-11-07 12:00">2010-11-07 12:00</time>
+            <h4>XXXC</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus in praesentium sunt tenetur quia, deleniti quae at totam?</p>
+        </div>
+        <div class="box">
+            <time datetime="2010-11-07 12:00">2010-11-07 12:00</time>
+            <h4>XXXD</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus in praesentium sunt tenetur quia, deleniti quae at totam?</p>
+        </div>
+        <div class="box">
+            <time datetime="2010-11-07 12:00">2010-11-07 12:00</time>
+            <h4>XXXE</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus in praesentium sunt tenetur quia, deleniti quae at totam?</p>
+        </div>
+        <div class="box">
+            <time datetime="2010-11-07 12:00">2010-11-07 12:00</time>
+            <h4>XXXF</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus in praesentium sunt tenetur quia, deleniti quae at totam?</p>
+        </div>
+
+</div>
+
+</section>
+<br>
+
+<!--Footer carousel-->
+
+    <section id="fuuuter">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0"
+                class="active">
+                </li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="http://lorempixel.com/1400/400/cats/">
+                </div>
+                <div class="carousel-item">
+                    <img src="http://lorempixel.com/1400/500/nature/">
+                </div>
+                <div class="carousel-item">
+                    <img src="http://lorempixel.com/1400/400/people/">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <div id="naspodku">
+        <p>Vyrobene pre leto v IT</p>
+    </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>

@@ -1,0 +1,19 @@
+ <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+                    <g>
+                     <title>Layer 1</title>
+                     <path id="svg_2" d="m228.5,145.4375c0,0 106,8 106,8" opacity="0.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                    </g>
+                    <g>
+                     <title>background</title>
+                     <rect stroke="null" fill="#ffffff" id="canvas_background" height="153.99999" width="151" y="63" x="211"/>
+                     <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                      <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                     </g>
+                     <path id="svg_3" d="m221.5,87.4375" opacity="0.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <path stroke="null" id="svg_8" d="m209.39248,140.61032l0,0c0,-43.35435 34.47408,-78.50001 77.00001,-78.50001l0,0c20.42166,0 40.00693,8.27051 54.44722,22.99211c14.44031,14.72161 22.55279,34.68839 22.55279,55.50789l0,0c0,43.35435 -34.47408,78.50001 -77.00001,78.50001l0,0c-42.52592,0 -77.00001,-35.14566 -77.00001,-78.50001zm38.5,0l0,0c0,21.67717 17.23705,39.25 38.5,39.25c21.26297,0 38.5,-17.57283 38.5,-39.25c0,-21.67717 -17.23705,-39.25 -38.5,-39.25l0,0c-21.26295,0 -38.5,17.57284 -38.5,39.25z" stroke-opacity="null" stroke-width="NaN" fill="#BBBBBB"/>
+                     <path id="svg_10" d="m292.429,205.94525l-42.82459,-12l76.99999,12l-76.99999,11.99999l42.82459,-11.99999z" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="#ffffff"/>
+                     <path transform="rotate(-179.72604370117188 289.28747558593756,126.53343200683594) " stroke-dasharray="2,2" id="svg_4" d="m245.28748,172.03343l44,-91.00001l44,91.00001l-88,0z" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+                     <path stroke="#000" transform="rotate(179.72906494140625 290.20062255859375,164.8244171142578) " stroke-dasharray="2,2" id="svg_9" d="m251.20063,206.82004l39,-83.99124l39,83.99124l-77.99999,0z" stroke-opacity="null" stroke-width="1.5" fill="#ffffff"/>
+                    </g>
+                   </svg>

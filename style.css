@@ -1,0 +1,382 @@
+:root {
+    --zakladna: #91d3ff;
+    --dark: #3B576E;
+    --light: #7CB9E8;
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: var(--zakladna); */
+}
+
+body {
+    margin: 30px 50px;
+    line-height: 1.4em;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+
+}
+
+header {
+    background: var(--zakladna);
+    color: white;
+   
+}
+
+nav p{
+    float: right;
+    padding: 0 30px 0px;
+    color: var(--dark);
+}
+
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 5px;
+}
+
+header nav{
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: var(--dark);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: var(--dark);
+    text-decoration: none;
+
+}
+
+
+.druhy-kontajner{
+    display: grid;
+    grid-template-areas: 
+        "formular vyhladavac";
+    padding: 20px;
+    grid-gap: 20px;
+}
+
+.showcase {
+    grid-area: showcase;
+    min-height: 450px;
+    background: url(../../earth.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    align-items: start;
+    box-shadow: var(--shadow); */
+}
+
+.showcase h1 {
+    font-size: 2 rem;
+    margin-bottom: 0;
+    color: var(--light);
+    margin-top: 200px;
+}
+
+#formular {
+    padding: 15px;
+    color: white;
+    background: var(--zakladna);
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#searchis {
+    display: grid;
+    justify-items: right;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    
+}
+
+#vyhladavac {
+    background: var(--zakladna);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+
+input[type=name]{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 2px solid steelblue;
+}
+
+input[type=email]{
+    display: block;
+   margin-bottom: 5px;
+   width: 100%;
+   border: 2px solid steelblue;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+
+#vyhladavac .btn{
+    margin-top: 0px;
+} 
+
+#reklama {
+    margin: 30px;
+    padding: 15px;
+    color: darkblue;	
+}
+
+input[type=search]{
+    margin-top: 15px;
+    border: 2px solid steelblue;
+    
+
+}
+
+#form{
+    float: right;
+}
+
+textarea{
+    padding: 10px;
+    font-size: inherit;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 2px solid steelblue;
+}
+
+#formular p{
+    color: darkblue;
+    margin-bottom: 1px;
+}
+
+
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.box {
+    background: var(--zakladna);
+    text-align: start;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fuuuter {
+        max-height: 500px;
+        max-width: 1400px; 
+}
+
+#naspodku {
+
+    background: var(--zakladna);
+    
+}
+
+/* Gallery */
+
+  .fotky {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+  }
+
+  .fotky img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    
+  }
+
+.row {
+    padding: 30px;
+    padding-top: 5px;
+  }
+  
+#user img {
+    max-height: 30px;
+    max-width: 32px;
+}
+
+
+#naspodku p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.jumbotron {
+    background-image: url('../../bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*profil*/
+
+.profil-header {
+    display: grid;
+    color: var(--dark);
+    font-size: 1.1rem;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 1fr;
+    
+    
+
+}
+
+.meno {
+    background: url(../../bg2.jpg);
+    text-align: center; 
+    color: white;   
+ } 
+
+.profilovka {
+   
+    background: url(../../jozko.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    display: grid;
+    height: 250px;
+    width: 270px;
+   
+   
+
+}
+
+.wrapper2 {
+    padding: 20px;
+    
+
+}
+
+
+.main-nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nastenka {
+    display: grid;
+    grid-gap: 40px;
+    padding: 20px;
+
+}
+
+.prispevok {
+    display: grid;
+    box-shadow: var(--shadow);
+    padding: 40px;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-auto-columns: 1fr 3fr;
+}
+
+.nastenka img {
+    margin: 20px;
+    
+}
+
+.nastenka iframe {
+    margin: 20px;
+}
+
+
+@media(max-width: 768px){
+    header nav,
+    header nav li{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav p{
+        padding: 0 30px 5px;
+    }
+
+    .druhy-kontajner{
+        grid-template-areas: 
+        "formular"
+        "vyhladavac";
+        grid-gap: 20px;
+    }
+
+    #vyhladavac button{
+        display: block;
+        width: 100%;
+    }
+
+    #vyhladavac form input[type="search"]{
+        width: 100%;
+        margin-bottom: 5px;
+        
+        
+    }
+
+    #searchis {
+        float: right;
+ }
+ 
+       
+}
+
+@media(max-width: 375px){
+    #searchis {
+        
+        margin-right: 26px;
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .nastenka {
+        min-height: 300px;
+    }
+
+    .profil-header {
+        grid-template-columns: 1fr ;
+    }
+
+    .profil-header .profilovka {
+        display: none;
+    }
+
+   }
